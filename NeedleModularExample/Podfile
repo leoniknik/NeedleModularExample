@@ -1,0 +1,13 @@
+platform :ios, '13.0'
+
+target 'NeedleModularExample' do
+  use_frameworks!
+	
+  pod 'NeedleFoundation'
+  
+  pod 'Core', :path => 'DevPods/Core'
+  pod 'AuthTabBar', :path => 'DevPods/AuthTabBar'
+  pod 'Chat', :path => 'DevPods/Chat'
+  pod 'ChatInterfaces', :path => 'DevPods/ChatInterfaces'
+
+end

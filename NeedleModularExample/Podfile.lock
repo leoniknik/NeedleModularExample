@@ -1,0 +1,44 @@
+PODS:
+  - AuthTabBar (1.0.0):
+    - ChatInterfaces (~> 1.0.0)
+    - Core (~> 1.0.0)
+    - NeedleFoundation
+  - Chat (1.0.0):
+    - ChatInterfaces (~> 1.0.0)
+    - Core (~> 1.0.0)
+    - NeedleFoundation
+  - ChatInterfaces (1.0.0)
+  - Core (1.0.0)
+  - NeedleFoundation (0.17.2)
+
+DEPENDENCIES:
+  - AuthTabBar (from `DevPods/AuthTabBar`)
+  - Chat (from `DevPods/Chat`)
+  - ChatInterfaces (from `DevPods/ChatInterfaces`)
+  - Core (from `DevPods/Core`)
+  - NeedleFoundation
+
+SPEC REPOS:
+  trunk:
+    - NeedleFoundation
+
+EXTERNAL SOURCES:
+  AuthTabBar:
+    :path: DevPods/AuthTabBar
+  Chat:
+    :path: DevPods/Chat
+  ChatInterfaces:
+    :path: DevPods/ChatInterfaces
+  Core:
+    :path: DevPods/Core
+
+SPEC CHECKSUMS:
+  AuthTabBar: 2ecc69f68401a2362ef4d4ee9909d5f8aa2ea093
+  Chat: 1b2af1b51480ac494fe58dce2b40ee074528c735
+  ChatInterfaces: 249c4dbbe60b97b9bdb610b1a9a37d9ab63eb5f7
+  Core: 97b7d889a6cb4c48eea672bab47fff9de7de884b
+  NeedleFoundation: 36cfaea9ae9eb527a796f5c1df19296c722666b8
+
+PODFILE CHECKSUM: 67c588eac14506f2fa94690054553b2bea56f56a
+
+COCOAPODS: 1.11.2
